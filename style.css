@@ -1,0 +1,9 @@
+body{
+    background-color: cyan;
+}
+
+a{
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: none;
+}
