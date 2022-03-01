@@ -1,15 +1,59 @@
-.box{
+.box-shadow {
+    border: 3px solid black;
     width: 250px;
     height: 250px;
-    border: 2px solid black;
-    box-shadow: 5px 5px 10px grey;
-    text-shadow: 3px 3px 3px 4px yellowgreen;
-    /* transition: transform 2s ease-in-out;  */
-    transition: transform 2s;
+    border-radius: 5px;
+    box-shadow: 6px 6px 8px 2px grey;
 }
 
-.box:hover{
-    /* width: 700px; */
+.txt-shadow {
+    text-shadow: 3px 3px 5px greenyellow;
+}
 
-    transform: skewX(360deg);
+.trans {
+    margin-left : 150px;
+    width: 900px;
+    height: 500px;
+    border: 3px dotted blue;
+}
+.square {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 95px;
+    background-color: red;
+    transition: transform 5s;
+}
+
+.square:hover{
+    transform: skewX(60deg);
+}
+
+.box-shadow1 {
+    margin: 350px;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    box-shadow: 6px 6px 8px 2px blue;
+    transition: transform ease-in 5s, width 3s ease-in 5s;
+}
+
+.box-shadow2 {
+    margin: 350px;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    box-shadow: 6px 6px 8px 2px greenyellow;
+    transition: transform ease-in 5s;
+}
+
+.box-shadow1:hover{
+    width: 400px;
+    transform: rotate(360deg);
+}
+
+.box-shadow2:hover{
+    transform: translateX(500px);
 }
