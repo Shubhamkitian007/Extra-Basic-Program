@@ -1,0 +1,15 @@
+.box{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px grey;
+    text-shadow: 3px 3px 3px 4px yellowgreen;
+    /* transition: transform 2s ease-in-out;  */
+    transition: transform 2s;
+}
+
+.box:hover{
+    /* width: 700px; */
+
+    transform: skewX(360deg);
+}
