@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.big-box{
+    width: 99.5%;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    width: 20%;
+    height: 20vh;
+    border: 2px solid red;
+    font-size: xx-large;
+}
+
+@media only screen and (max-width:900px){
+    .big-box{
+        height: 180vh;
+        background-image: radial-gradient(45deg, white, black, white, black, white, black);
+        display: block;
+        /* flex-direction: column; */
+    }
+    .box{
+    width: 20%;
+    height: 20vh;
+    border: 2px solid red;
+    font-size: xx-large;
+    background-image: radial-gradient(rgba(0, 255, 255, 0.877),rgba(0, 255, 106, 0.918),rgba(0, 255, 255, 0.877),rgba(0, 255, 106, 0.918),rgba(0, 255, 255, 0.877),rgba(0, 255, 106, 0.918));
+    border-radius: 5%;
+    }
+}
+@media only screen and (max-width:750px){
+    .big-box{
+        height: 180vh;
+        background-color: yellowgreen;
+        display: block;
+    }
+    .box{
+        width: 30%;
+        height: 30vh;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.9),white,black,white,black);
+        font-size: 55px;
+        color: red;
+        border-radius: 20%;
+        text-align: center;
+        color: bisque;
+        
+        }
+}
+@media only screen and (max-width:600px){
+    .big-box{
+        height: 180vh;
+        background-color: yellowgreen;
+        display: block;
+    }
+    .box{
+        width: 40%;
+        height: 40vh;
+        border: 2px solid red;
+        font-size: xx-large;
+        border-radius: 30%;
+        background-image: linear-gradient(to right,rgba(0, 0, 255, 0.87), rgba(0, 0, 0, 0.836), rgba(0, 255, 255, 0.904), rgba(0, 128, 0, 0.911));
+        }
+}
+@media only screen and (max-width:450px){
+    .big-box{
+        height: 180vh;
+        background-color: yellowgreen;
+        display: block;
+    }
+    .box{
+        width: 45%;
+        height: 45vh;
+        border: 2px solid ;
+        font-size: xx-large;
+        border-radius: 40%;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0.829),rgba(0, 0, 255, 0.829), rgba(0, 0, 0, 0.801), rgba(0, 255, 255, 0.89));
+        }
+}
+@media only screen and (max-width:300px){
+    .big-box{
+        height: 180vh;
+        background-color: yellowgreen;
+        flex-direction: column;
+    }
+    .box{
+        width: 45%;
+        height: 35vh;
+        border: 2px solid rgba(236, 22, 243, 0.925);
+        background-image: linear-gradient(to right, rgba(228, 18, 247, 0.856),rgba(0, 225, 255, 0.829), rgba(0, 0, 0, 0.801), rgba(0, 255, 255, 0.89, rgba(218, 14, 48, 0.897)));
+        font-size: xx-large;
+        border-radius: 50%;
+        }
+}
