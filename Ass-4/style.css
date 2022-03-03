@@ -16,3 +16,10 @@
     margin: 15px;
     justify-content: center;
 }
+.linkclass a{
+
+    font-size:25px ;
+    text-decoration:none;
+    font-style: italic;
+    color: rgba(7, 73, 255, 0.911);
+}
